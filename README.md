@@ -91,7 +91,15 @@ Open Source ASIC Flow	RTL-to-GDSII Implementation
 
 📊 Results
 
-Gate-Level Schematic:
+
+### Gate-Level Schematic
+![Gate-Level Schematic](gate%20level%20schematic.png)
+
+### Simulation Waveform
+![Simulation Waveform](waveform.jpeg)
+
+### GDSII Layout
+![GDSII Layout](gdsii%20file.jpeg)
 
 
 
