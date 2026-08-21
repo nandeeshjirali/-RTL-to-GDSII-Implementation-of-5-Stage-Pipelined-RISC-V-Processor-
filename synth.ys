@@ -1,0 +1,19 @@
+# 1. Read all your design files
+read_verilog scr/alu.v scr/register_file.v scr/pc.v scr/pipeline_regs.v scr/control_unit.v scr/instruction_mem.v scr/riscv_top.v
+# 2. Check the hierarchy
+hierarchy -check -top riscv_top
+
+# 3. High-level synthesis
+proc; opt; fsm; opt; memory; opt
+
+# 4. Map to generic logic gates
+techmap; opt
+
+# 5. Show the schematic (This is your Image Proof!)
+show -format dot -prefix ./riscv_schematic
+
+# 6. Write the final Gate-Level Netlist
+write_verilog riscv_gate_level.v
+
+# 7. Print stats
+stat
