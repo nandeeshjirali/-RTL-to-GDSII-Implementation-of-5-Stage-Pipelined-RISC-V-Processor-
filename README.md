@@ -2,10 +2,12 @@
 🚀 RTL-to-GDSII Implementation of a 5-Stage Pipelined RISC-V Processor
 
 📖 Project Overview
+
 This project presents the design and implementation of a 32-bit RISC-V Processor featuring a 5-stage pipeline architecture with support for custom Bit Manipulation Instructions.
 The processor was developed using Verilog HDL and verified through simulation. The design was then synthesized to generate a gate-level netlist, demonstrating a complete RTL-to-GDSII ASIC Design Flow.
 
 🎯 Objectives
+
 Design a 32-bit RISC-V processor
 Implement a 5-stage pipelined architecture
 Support custom Bit Manipulation Instructions
@@ -15,6 +17,7 @@ Demonstrate RTL-to-GDSII ASIC design methodology
 
 
 🏗️ Processor Architecture
+
 5-Stage Pipeline
 1.Instruction Fetch (IF)
 Fetch instruction from instruction memory
